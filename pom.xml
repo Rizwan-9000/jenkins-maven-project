@@ -10,8 +10,8 @@
 	
 	<properties>
 		<docker.image.prefix>kammana</docker.image.prefix>
-		<maven.compiler.source>1.6</maven.compiler.source>
-         <maven.compiler.target>1.6</maven.compiler.target>
+		<maven.compiler.source>17</maven.compiler.source>
+         <maven.compiler.target>17</maven.compiler.target>
 	</properties>	
 	
 	<dependencies>
@@ -49,16 +49,5 @@
 		<url>http://repo1.maven.org/maven2</url>
 	    </pluginRepository>
 	</pluginRepositories>
-
-	<build>
-    <plugins>
-        <plugin>
-            <groupId>org.sonarsource.scanner.maven</groupId>
-            <artifactId>sonar-maven-plugin</artifactId>
-            <version>3.9.1.2184</version>
-        </plugin>
-    </plugins>
-     </build>
-
 	
 </project>
